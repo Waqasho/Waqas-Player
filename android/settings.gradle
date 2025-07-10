@@ -8,3 +8,5 @@ pluginManagement {
         id "dev.flutter.flutter-gradle-plugin" version "1.0.0"
     }
 }
+
+include(":app") // ← Yeh bohat zaroori line hai, bina iske project 'app' nahi milega
